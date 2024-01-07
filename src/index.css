@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply rounded-full border border-stone-200 px-4 py-2 text-sm transition-all duration-300 placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-[#fcc2d7] md:px-6 md:py-3;
+  }
+  .loader {
+    width: 45px;
+    aspect-ratio: 0.75;
+    --c: no-repeat linear-gradient(theme(colors.stone.800) 0 0);
+    background: var(--c) 0% 50%, var(--c) 50% 50%, var(--c) 100% 50%;
+    background-size: 20% 50%;
+    animation: loading 1s infinite linear;
+  }
+
+  @keyframes loading {
+    20% {
+      background-position: 0% 0%, 50% 50%, 100% 50%;
+    }
+    40% {
+      background-position: 0% 100%, 50% 0%, 100% 50%;
+    }
+    60% {
+      background-position: 0% 50%, 50% 100%, 100% 0%;
+    }
+    80% {
+      background-position: 0% 50%, 50% 50%, 100% 100%;
+    }
+  }
+}
+
+/* Replace '.custom-carousel' with the appropriate class for your Slider component */
+.cyan-chevron button.slick-prev:before,
+.cyan-chevron button.slick-next:before {
+  color: #22b8cf; /* Change this to the color you want */
+  font-size: 30px;
+}
+
+.violet-chevron button.slick-prev:before,
+.violet-chevron button.slick-next:before {
+  color: #b197fc; /* Change this to the color you want */
+  font-size: 30px;
+}
+
+.slick-prev {
+  left: -45px !important;
+}
+
+/* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
+
+/* About Us Cover Photo */
+.center-midbottom {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+}
+
+/* Testimonials Scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #66d9e8; /* Change to your desired thumb color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(239, 239, 239); /* Change to your desired track color */
+  width: 12px;
+}
