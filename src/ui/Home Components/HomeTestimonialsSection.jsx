@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
+import { BsStarFill, BsStar } from "react-icons/bs";
 
 let starRating5 = [
   <BsStarFill key="star1" />,
@@ -48,11 +48,11 @@ let starRating1 = [
 
 let featuredReviews = [
   {
-    icon: "user-avatar.png",
-    rating: starRating4,
+    icon: "testimonial-photo-vickie.jpeg",
+    rating: starRating5,
     reviewersName: "Vickie V.",
     comment:
-      "Very fluffy, chewy and not so sweet. Great having it for my tea time 🍵",
+      "These are absolutely perfect! They are crunchy and chewy, and the filling is plentiful.There are so many flavors to choose from. I love Thai milk tea, pistachio and taro the most! Totally worth it to make a great impression for a gift, or for a party!",
     isTruncated: false,
   },
   {
@@ -64,10 +64,10 @@ let featuredReviews = [
     isTruncated: true,
   },
   {
-    icon: "user-avatar.png",
+    icon: "testimonial-photo-monineath.jpeg",
     rating: starRating5,
     reviewersName: "Monineath S.",
-    comment: "Crème brûlée was my favorite!",
+    comment: "Crème brûlée was my fave macaron flavor! So good. Perfect amount of sweetness 😍",
     isTruncated: false,
   },
   {
@@ -78,48 +78,41 @@ let featuredReviews = [
       "Great variety of unique flavors to choose from. All of them tasted great!",
     isTruncated: false,
   },
-  // {
-  //   icon: "testimonial-user-card-stock-photo-5.jpeg",
-  //   rating: starRating5,
-  //   reviewersName: "First Last 5",
-  //   comment:
-  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, enim cupiditate libero placeat nemo autem est.",
-  // },
-  // {
-  //   icon: "testimonial-user-card-stock-photo-6.jpeg",
-  //   rating: starRating4half,
-  //   reviewersName: "First Last 6",
-  //   comment:
-  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, enim cupiditate libero placeat nemo autem est.",
-  // },
-  // {
-  //   icon: "testimonial-user-card-stock-photo-7.jpeg",
-  //   rating: starRating5,
-  //   reviewersName: "First Last 7",
-  //   comment:
-  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, enim cupiditate libero placeat nemo autem est.",
-  // },
-  // {
-  //   icon: "testimonial-user-card-stock-photo-8.jpeg",
-  //   rating: starRating4half,
-  //   reviewersName: "First Last 8",
-  //   comment:
-  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, enim cupiditate libero placeat nemo autem est.",
-  // },
-  // {
-  //   icon: "testimonial-user-card-stock-photo-9.jpeg",
-  //   rating: starRating5,
-  //   reviewersName: "First Last 9",
-  //   comment:
-  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, enim cupiditate libero placeat nemo autem est.",
-  // },
-  // {
-  //   icon: "testimonial-user-card-stock-photo-10.jpeg",
-  //   rating: starRating4half,
-  //   reviewersName: "First Last 10",
-  //   comment:
-  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, enim cupiditate libero placeat nemo autem est.",
-  // },
+  {
+    icon: "testimonial-photo-joey.jpeg",
+    rating: starRating5,
+    reviewersName: "Joey P.",
+    comment:
+      "Having tried the macarons from this store, I must say they exceeded my expectations. The flavors were exquisite, and the texture was spot-on with a delightful balance of crispiness and softness. It was a treat for the taste buds, and I highly recommend trying them for a delightful culinary experience.",
+  },
+  {
+    icon: "user-avatar.png",
+    rating: starRating5,
+    reviewersName: "Van T.",
+    comment:
+      "Excellent taste and variety of flavors!!! Very new flavors that you cant find anywhere.",
+  },
+  {
+    icon: "user-avatar.png",
+    rating: starRating5,
+    reviewersName: "Xia V.",
+    comment:
+      "I don’t usually like sweets but I these are flavorful and I always go back for more. Amy offers flavors for the Asian palate like ube, thai tea, and milk tea (all on my top 5 list). She is also easy to work with and takes new flavor suggestions well.",
+  },
+  {
+    icon: "testimonial-photo-tina.jpeg",
+    rating: starRating5,
+    reviewersName: "Tina D.",
+    comment:
+      "Very delicious macarons that come in a variety of different unique flavors.",
+  },
+  {
+    icon: "testimonial-photo-stephanie.jpeg",
+    rating: starRating5,
+    reviewersName: "Stephanie S.",
+    comment:
+      "I ordered over 100 macarons in five different flavors (lemon crème, chocolate fudge, Vietnamese coffee, white chocolate mocha, and strawberries and crème)! The macarons just melt in your mouth. So fresh and tasty! We will continue to order from Simply Sweet because it never disappoints. Highly recommend!",
+  },
 ];
 
 function HomeTestimonialsSection() {

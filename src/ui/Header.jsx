@@ -32,11 +32,11 @@ function Header() {
 
   return (
     <div className="fixed left-0 right-0 top-0 z-10">
-      <header className="flex items-center bg-[#e3fafc] px-4 py-4 font-[Sacramento] text-3xl xs:flex-col xs:justify-center xs:gap-2 xs:p-6 mobile:flex-col mobile:gap-2 sm:flex-row sm:justify-between sm:px-6">
-        <Link to="/home" className="tracking-widest">
+      <header className="flex items-center bg-[#e3fafc] px-2 py-2 font-[Sacramento] text-3xl xs:flex-col xs:justify-center xs:gap-2 xs:p-6 mobile:flex-col mobile:gap-2 sm:flex-row sm:justify-between sm:px-6">
+        <Link to="/" className="tracking-widest">
           <img
-            src="src/img/svg-blue/logo-no-background-blue.svg"
-            className="w-[350px] xs:w-[280px]"
+            src="src/img/canva-logos/ssba-logo-removebg.png"
+            className="w-[280px] sm:w-[300px]"
           />
         </Link>
 

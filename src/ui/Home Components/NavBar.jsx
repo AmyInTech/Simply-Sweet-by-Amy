@@ -20,7 +20,7 @@ function NavBar() {
             Home
           </a>
           <a
-            href="/menu"
+            href="/menu-and-ordering"
             className="rounded-lg px-6 py-1 hover:cursor-pointer hover:text-[#22b8cf] hover:underline hover:decoration-2 hover:underline-offset-4 hover:duration-300"
           >
             Menu & Ordering
@@ -32,7 +32,7 @@ function NavBar() {
             About Us
           </a>
           <a
-            href="/FAQ"
+            href="/FAQs"
             className="rounded-lg px-6 py-1 hover:cursor-pointer hover:text-[#22b8cf] hover:underline hover:decoration-2 hover:underline-offset-4 hover:duration-300"
           >
             FAQs

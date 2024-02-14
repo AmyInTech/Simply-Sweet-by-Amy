@@ -43,7 +43,7 @@ function NavBarOverlay() {
               Home
             </a>
             <a
-              href="/menu"
+              href="/menu-and-ordering"
               className="block px-4 py-2 font-[Raleway] text-3xl font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
             >
               Menu & Ordering
@@ -55,7 +55,7 @@ function NavBarOverlay() {
               About Us
             </a>
             <a
-              href="/FAQ"
+              href="/FAQs"
               className="block px-4 py-2 font-[Raleway] text-3xl font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
             >
               FAQs

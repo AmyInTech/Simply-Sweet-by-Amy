@@ -19,7 +19,7 @@ function TestimonialCard({ review }) {
           //src/img/testimonials-users/testimonial-user-card-stock-photo-1.jpeg
           src={`src/img/testimonials-users/${review.icon}`}
           alt={review.reviewersName}
-          className="h-[80px] w-[80px] rounded-full object-cover"
+          className="h-[80px] w-[80px] rounded-full object-cover object-center"
         />
         <div className="flex flex-col items-start gap-2">
           <span className="flex">{review.rating}</span>

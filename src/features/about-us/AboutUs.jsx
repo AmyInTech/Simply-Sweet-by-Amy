@@ -1,4 +1,5 @@
 import React from "react";
+import { IoCartOutline } from "react-icons/io5";
 
 function AboutUs() {
   return (
@@ -6,14 +7,14 @@ function AboutUs() {
       <div className="max-w-4xl bg-[#e3fafc] p-8 xs:p-0 md:mt-[80px] md:p-10 lg:p-14">
         <div className="flex items-center justify-center rounded-lg ">
           <div className="flex items-stretch xs:w-screen xs:flex-col sm:w-auto">
-            <div className="basis-5/12 sm:basis-full sm:overflow-y-scroll">
+            <div className="basis-5/12 sm:basis-full">
               <img
                 src="src/img/about-us/baking-macarons-3-cropped.png"
                 alt="Box of packaged macarons (pink, brown, blue, and white) with a pink ribbon tying a bow around it. White blossons on branches in the background."
-                className="h-full rounded-l-md object-top xs:h-[350px] xs:w-full xs:object-cover xs:object-center mobile:object-top"
+                className="h-full rounded-t-md object-top xs:h-[350px] xs:w-full xs:object-cover xs:object-center mobile:object-top"
               />
             </div>
-            <div className="flex basis-7/12 flex-col justify-center rounded-r-md bg-white p-[50px] xs:p-8 mobile:p-10 lgmobile:p-12">
+            <div className="flex basis-7/12 flex-col justify-center rounded-b-md bg-white p-[50px] xs:p-8 mobile:p-10 lgmobile:p-12">
               <h1 className="pb-4 font-[Sacramento] text-5xl text-[#22b8cf] xs:p-2 xs:pb-4 xs:text-center xs:text-5xl mobile:text-6xl sm:text-6xl md:text-7xl">
                 Hello There!
               </h1>
@@ -65,6 +66,17 @@ function AboutUs() {
                   </strong>{" "}
                   Welcome to my world of simple sweets!
                 </p>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-2 pt-6">
+                <span className="font-[Raleway] text-[16px] font-bold text-[#15aabf]">
+                  Ready to start your order?
+                </span>
+                <a
+                  href="/menu-and-ordering"
+                  className="flex items-center justify-center gap-2 rounded-md bg-[#3bc9db] px-8 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#15aabf] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf]"
+                >
+                  <IoCartOutline /> Order Macarons
+                </a>
               </div>
             </div>
           </div>
