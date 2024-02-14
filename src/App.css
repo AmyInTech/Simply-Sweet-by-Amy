@@ -75,7 +75,7 @@
 
 .contact-img-container {
   width: 400px;
-  background-image: url("src/img/send-message-3.avif");
+  background-image: url("/img/send-message-3.avif");
   background-repeat: none;
   background-position: center;
   background-size: cover;
@@ -207,7 +207,7 @@
   .contact-img-container {
     height: 350px;
     width: 100%;
-    background-image: url("src/img/send-message-3.avif");
+    background-image: url("/img/send-message-3.avif");
     background-repeat: no-repeat;
     background-position-y: -380px;
     background-position-x: center;

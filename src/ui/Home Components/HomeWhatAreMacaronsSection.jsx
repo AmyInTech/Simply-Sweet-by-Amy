@@ -20,7 +20,7 @@ function HomeWhatAreMacaronsSection() {
       >
         <div className="md:basis-2/6">
           <img
-            src="src/img/macaron-background-2.avif"
+            src="/img/macaron-background-2.avif"
             className="rounded-l-xl xs:h-[300px] xs:w-full xs:object-cover xs:object-center lg:h-full lg:bg-no-repeat lg:object-center"
             alt="Stack of green, purple, and pink macarons with yellow and pink macarons around the stack."
           />

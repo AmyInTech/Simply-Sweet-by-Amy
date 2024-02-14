@@ -9,7 +9,7 @@ function CareGuide() {
           <div className="flex items-stretch xs:w-screen xs:flex-col sm:w-auto">
             <div className="basis-5/12 sm:basis-full">
               <img
-                src="src/img/macarons-care-image.avif"
+                src="/img/macarons-care-image.avif"
                 alt="Macarons being cared for and stored properly."
                 className="h-full rounded-t-md object-top xs:h-[350px] xs:w-full xs:object-cover xs:object-center mobile:object-top"
               />

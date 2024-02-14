@@ -9,7 +9,7 @@ function AboutUs() {
           <div className="flex items-stretch xs:w-screen xs:flex-col sm:w-auto">
             <div className="basis-5/12 sm:basis-full">
               <img
-                src="src/img/about-us/baking-macarons-3-cropped.png"
+                src="/img/about-us/baking-macarons-3-cropped.png"
                 alt="Box of packaged macarons (pink, brown, blue, and white) with a pink ribbon tying a bow around it. White blossons on branches in the background."
                 className="h-full rounded-t-md object-top xs:h-[350px] xs:w-full xs:object-cover xs:object-center mobile:object-top"
               />

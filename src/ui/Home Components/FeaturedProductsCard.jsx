@@ -5,8 +5,8 @@ function FeaturedProductsCard({ product }) {
   return (
     <div className="ml-auto mr-auto flex h-[280px] w-[200px] cursor-pointer flex-col items-center justify-around gap-2 rounded-lg bg-white p-5 transition-all">
       <img
-        // src="src/img/products-cards/products-card-stock-photo-1.avif"
-        src={`src/img/products-cards/${product.img}`}
+        // src="/img/products-cards/products-card-stock-photo-1.avif"
+        src={`/img/products-cards/${product.img}`}
         alt={product.title}
         className="h-[150px] w-[150px] rounded-lg object-cover"
       />

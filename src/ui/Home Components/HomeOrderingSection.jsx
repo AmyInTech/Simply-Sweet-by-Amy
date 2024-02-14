@@ -9,7 +9,7 @@ function OrderingSection() {
     >
       <div>
         <img
-          src="src/img/macaron-background-1.avif"
+          src="/img/macaron-background-1.avif"
           className="r h-[550px] rounded-l-xl brightness-125"
         />
       </div>

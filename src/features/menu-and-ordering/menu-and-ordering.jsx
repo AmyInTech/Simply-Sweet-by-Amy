@@ -1,9 +1,9 @@
 import React from "react";
 import { IoCartOutline } from "react-icons/io5";
 import ModalImage from "react-modal-image";
-import menuImageUrl from "../../img/menu/simply-sweet-by-amy-menu/flavors.png";
-import orderingImageUrl from "../../img/menu/simply-sweet-by-amy-menu/ordering.png";
-import pricingImageUrl from "../../img/menu/simply-sweet-by-amy-menu/pricing.png";
+import menuImageUrl from "/img/menu/simply-sweet-by-amy-menu/flavors.png";
+import orderingImageUrl from "/img/menu/simply-sweet-by-amy-menu/ordering.png";
+import pricingImageUrl from "/img/menu/simply-sweet-by-amy-menu/pricing.png";
 import "./MenuAndOrdering.css"; // Import CSS file for styling
 
 const MenuItem = ({ smallImageUrl, largeImageUrl, altText }) => (

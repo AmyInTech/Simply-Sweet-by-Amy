@@ -35,7 +35,7 @@ function Header() {
       <header className="flex items-center bg-[#e3fafc] px-2 py-2 font-[Sacramento] text-3xl xs:flex-col xs:justify-center xs:gap-2 xs:p-6 mobile:flex-col mobile:gap-2 sm:flex-row sm:justify-between sm:px-6">
         <Link to="/" className="tracking-widest">
           <img
-            src="src/img/canva-logos/ssba-logo-removebg.png"
+            src="/img/canva-logos/ssba-logo-removebg.png"
             className="w-[280px] sm:w-[300px]"
           />
         </Link>

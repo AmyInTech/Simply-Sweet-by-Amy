@@ -16,8 +16,8 @@ function TestimonialCard({ review }) {
     <div className="ml-auto mr-auto flex h-[280px] cursor-pointer flex-col gap-4 rounded-lg bg-white p-8 transition-all xs:w-[230px] xs:p-6 slider600:w-[390px] sm:w-[300px] md:w-[230px] slider900:w-[280px] slider1020:w-[300px] slider1060:w-[240px] xl:w-[310px]">
       <div className="flex items-end gap-5">
         <img
-          //src/img/testimonials-users/testimonial-user-card-stock-photo-1.jpeg
-          src={`src/img/testimonials-users/${review.icon}`}
+          ///img/testimonials-users/testimonial-user-card-stock-photo-1.jpeg
+          src={`/img/testimonials-users/${review.icon}`}
           alt={review.reviewersName}
           className="h-[80px] w-[80px] rounded-full object-cover object-center"
         />

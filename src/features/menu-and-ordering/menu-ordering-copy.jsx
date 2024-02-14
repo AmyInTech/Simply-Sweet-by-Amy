@@ -2,9 +2,9 @@
 import React, { useState } from "react";
 import { IoCartOutline } from "react-icons/io5";
 import Modal from './modal';
-import menuImage from "../../img/menu/simply-sweet-by-amy-menu/flavors.png";
-import orderingImage from "../../img/menu/simply-sweet-by-amy-menu/ordering.png";
-import pricingImage from "../../img/menu/simply-sweet-by-amy-menu/pricing.png";
+import menuImage from "/img/menu/simply-sweet-by-amy-menu/flavors.png";
+import orderingImage from "/img/menu/simply-sweet-by-amy-menu/ordering.png";
+import pricingImage from "/img/menu/simply-sweet-by-amy-menu/pricing.png";
 
 function MenuAndOrderingCopy() {
   const [isMenuModalOpen, setIsMenuModalOpen] = useState(false);
@@ -82,9 +82,9 @@ function MenuAndOrderingCopy() {
 //Modal Using React Modal:
 import React, { useState } from "react";
 import { IoCartOutline } from "react-icons/io5";
-import menuImage from "../../img/menu/simply-sweet-by-amy-menu/flavors.png";
-import orderingImage from "../../img/menu/simply-sweet-by-amy-menu/ordering.png";
-import pricingImage from "../../img/menu/simply-sweet-by-amy-menu/pricing.png";
+import menuImage from "/img/menu/simply-sweet-by-amy-menu/flavors.png";
+import orderingImage from "/img/menu/simply-sweet-by-amy-menu/ordering.png";
+import pricingImage from "/img/menu/simply-sweet-by-amy-menu/pricing.png";
 import ModalImage from "react-modal-image";
 
 function MenuAndOrdering() {

@@ -44,7 +44,7 @@ const Error = () => {
               </div>
             </div>
             <img
-              src="../src/img/undraw-error-illustration-2.svg"
+              src="..//img/undraw-error-illustration-2.svg"
               alt="error message illustration"
               className="w-[90%] sm:w-[300px] lg:relative lg:bottom-[80px] lg:right-[-180px] lg:w-[350px]"
             ></img>

@@ -17,7 +17,7 @@ export default {
         screen: "100dvh",
       },
       backgroundImage: {
-        hero: "url(/Users/amydinh/Desktop/AmyInTech/simply-sweet-by-amy/src/img/macaron-background-1.avif)",
+        hero: "url(/img/macaron-background-1.avif)",
       },
     },
     screens: {
