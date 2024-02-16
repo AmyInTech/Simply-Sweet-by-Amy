@@ -67,14 +67,14 @@ function AboutUs() {
                   Welcome to my world of simple sweets!
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 pt-6">
-                <span className="font-[Raleway] text-[16px] font-bold text-[#15aabf]">
-                  Ready to start your order?
-                </span>
-                <a
-                  href="/menu-and-ordering"
-                  className="flex items-center justify-center gap-2 rounded-md bg-[#3bc9db] px-8 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#15aabf] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf]"
-                >
+              <div className="flex flex-col items-center justify-center gap-2 pt-6 pb-8">
+              <span className="font-[Raleway] text-[16px] font-bold text-[#22b8cf] pb-2">
+                Ready to start your order?
+              </span>
+                    <a
+                    href="/menu-and-ordering"
+                    className="flex items-center justify-center gap-4 rounded-md bg-[#3bc9db] px-8 py-2 text-sm font-semibold text-white text-[18px] uppercase tracking-[2px] shadow-sm hover:bg-[#66d9e8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf] hover:scale-105 transition-transform duration-3000"
+                  >
                   <IoCartOutline /> Order Macarons
                 </a>
               </div>

@@ -146,15 +146,17 @@ function Contact() {
                 ></textarea>
               </div>
 
-              <button
-                type="submit"
-                id="contact-submit-btn"
-                className="contact-submit-btn"
-                disabled={loading} //Disable the button when loading is true
-              >
-                {loading ? "Sending..." : "Send Message"}
-                <BsSend id="send-icon" />
-              </button>
+              {/* Send Message Button */}
+              <div className="submit-btn-container">
+                <button
+                  type="submit"
+                  className="flex items-center justify-center gap-4 rounded-md bg-[#faa2c1] px-8 py-2 font-semibold text-white text-[12px] uppercase tracking-[1.5px] shadow-sm hover:bg-[#f783ac] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f783ac] hover:scale-105 transition-transform duration-3000"
+                  disabled={loading} //Disable the button when loading is true
+                >
+                  {loading ? "Sending..." : "Send Message"}
+                  <BsSend id="send-icon" />
+                </button>
+              </div>
             </div>
           </form>
         </div>

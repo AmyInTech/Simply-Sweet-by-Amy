@@ -31,13 +31,13 @@ function Footer() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl px-6 py-4 sm:pt-4 lg:px-8">
-        <div className="xs:py-16 xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className="xs:py-4 sm:py-6 xl:grid xl:grid-cols-3 xl:gap-8">
           <img
             className="w-[350px]"
             src="/img/canva-logos/ssba-blue-logo-removebg.png"
             alt="Company name"
           />
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+          <div className="xs:my-6 md:mx-16 md:mb-0 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold uppercase leading-6 tracking-wider text-[#15aabf]">
@@ -147,13 +147,13 @@ function Footer() {
           </form>
         </div> */}
         
-        <div className="mt-8 border-t border-neutral-500/10 pt-8 md:flex md:items-center md:justify-between">
+        <div className="border-t border-neutral-500/10 pt-8 md:flex md:items-center md:justify-between md:mt-8">
           <div className="flex flex-col">
-            <p className="mt-8 text-xs leading-5 text-neutral-400 md:order-1 md:mt-0">
+            <p className="mt-2 text-xs leading-5 text-neutral-400 md:order-1 md:mt-0">
               &copy; 2023 Simply Sweet By Amy is a registered cottage food
               producer in the state of MN.
             </p>
-            <p className="mt-8 text-xs leading-5 text-neutral-500 md:order-1 md:mt-0">
+            <p className="mt-4 text-xs leading-5 text-neutral-500 md:order-1 md:mt-0">
               Products are homemade and not subject to state inspection.
             </p>
           </div>

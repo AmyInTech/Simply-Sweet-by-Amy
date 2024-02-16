@@ -53,7 +53,7 @@ let featuredReviews = [
     reviewersName: "Vickie V.",
     comment:
       "These are absolutely perfect! They are crunchy and chewy, and the filling is plentiful.There are so many flavors to choose from. I love Thai milk tea, pistachio and taro the most! Totally worth it to make a great impression for a gift, or for a party!",
-    isTruncated: false,
+    isTruncated: true,
   },
   {
     icon: "testimonial-photo-robin.png",
@@ -84,6 +84,7 @@ let featuredReviews = [
     reviewersName: "Joey P.",
     comment:
       "Having tried the macarons from this store, I must say they exceeded my expectations. The flavors were exquisite, and the texture was spot-on with a delightful balance of crispiness and softness. It was a treat for the taste buds, and I highly recommend trying them for a delightful culinary experience.",
+      isTruncated: true,
   },
   {
     icon: "user-avatar.png",
@@ -91,6 +92,7 @@ let featuredReviews = [
     reviewersName: "Van T.",
     comment:
       "Excellent taste and variety of flavors!!! Very new flavors that you cant find anywhere.",
+      isTruncated: false,
   },
   {
     icon: "user-avatar.png",
@@ -98,6 +100,7 @@ let featuredReviews = [
     reviewersName: "Xia V.",
     comment:
       "I don’t usually like sweets but I these are flavorful and I always go back for more. Amy offers flavors for the Asian palate like ube, thai tea, and milk tea (all on my top 5 list). She is also easy to work with and takes new flavor suggestions well.",
+      isTruncated: true,
   },
   {
     icon: "testimonial-photo-tina.jpeg",
@@ -105,6 +108,7 @@ let featuredReviews = [
     reviewersName: "Tina D.",
     comment:
       "Very delicious macarons that come in a variety of different unique flavors.",
+      isTruncated: false,
   },
   {
     icon: "testimonial-photo-stephanie.jpeg",
@@ -112,6 +116,7 @@ let featuredReviews = [
     reviewersName: "Stephanie S.",
     comment:
       "I ordered over 100 macarons in five different flavors (lemon crème, chocolate fudge, Vietnamese coffee, white chocolate mocha, and strawberries and crème)! The macarons just melt in your mouth. So fresh and tasty! We will continue to order from Simply Sweet because it never disappoints. Highly recommend!",
+      isTruncated: true,
   },
 ];
 
@@ -189,7 +194,7 @@ function HomeTestimonialsSection() {
   return (
     <div
       id="home-testimonials-section"
-      className="xs:py-26 flex items-center justify-center bg-[#fff5f5] py-32 font-[Raleway] md:pt-32"
+      className="flex items-center justify-center bg-[#fff5f5] font-[Raleway] sm:pt-16 md:pt-32"
     >
       <div className="flex flex-col justify-evenly gap-5 rounded-lg bg-[#f3f0ff] px-20 py-10 mobile:px-14 slider600:w-[500px] sm:w-[550px] md:w-[700px] slider900:w-[800px] slider1020:w-[900px] slider1060:w-[980px] xl:w-[1200px]">
         <div className="relative flex justify-center">

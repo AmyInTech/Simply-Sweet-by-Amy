@@ -138,12 +138,12 @@ function FAQ() {
   ];
 
   return (
-    <div className="flex items-center justify-center bg-[#e3fafc] p-[100px] pt-40 xs:h-auto xs:overflow-hidden xs:p-[0px] xs:pt-12">
+    <div className="flex items-center justify-center bg-[#e3fafc] h-auto overflow-hidden pt-[140px] md:pt-[80px]">
       <div className="max-w-4xl bg-[#e3fafc] p-8 xs:p-0 md:mt-[80px] md:p-10 lg:p-14">
         <div className="flex items-center justify-center">
-          <div className="flex items-stretch rounded-t-md bg-white shadow-md xs:w-screen xs:flex-col sm:w-auto">
-            <div className="mb-4 mt-10 flex justify-center mobile:mt-28 md:mt-10">
-              <h1 className="font-[Sacramento] text-4xl text-[#22b8cf] mobile:text-4xl sm:text-5xl md:text-6xl">
+          <div className="flex items-stretch rounded-md bg-white shadow-md xs:w-screen xs:flex-col sm:w-auto">
+            <div className="mb-4 mt-10 flex justify-center xs:text-center">
+              <h1 className="font-[Sacramento] text-3xl text-[#22b8cf] xs:text-4xl sm:text-5xl md:text-6xl">
                 Frequently Asked Questions
               </h1>
             </div>
@@ -159,7 +159,7 @@ function FAQ() {
                     }`}
                     onClick={() => toggleAccordion(index)}
                   >
-                    <h2 className="font-[Raleway] text-[16px] font-semibold mobile:text-[16px] sm:text-[16px] md:text-[18px] lg:text-[16px]">
+                    <h2 className="font-[Raleway] text-[16px] font-semibold mobile:text-[16px] sm:text-[16px] md:text-[18px] lg:text-[16px] max-w-[90%]">
                       {item.question}
                     </h2>
                     <span className="text-[#22b8cf]">
@@ -177,13 +177,13 @@ function FAQ() {
                 </div>
               ))}
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 px-[36px] pb-10">
-              <span className="font-[Raleway] font-bold text-[#22b8cf]">
+            <div className="flex flex-col items-center justify-center gap-2 pt-6 pb-8">
+              <span className="font-[Raleway] text-[16px] font-bold text-[#22b8cf] pb-2">
                 Have a question we didn't answer here?
               </span>
               <a
                 href="/contact"
-                className="flex items-center justify-center gap-2 rounded-md bg-[#3bc9db] px-8 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#15aabf] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf]"
+                className="flex items-center justify-center gap-4 rounded-md bg-[#3bc9db] px-8 py-2 text-sm font-semibold text-white text-[18px] uppercase tracking-[2px] shadow-sm hover:bg-[#66d9e8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf] hover:scale-105 transition-transform duration-3000"
               >
                 <IoMailOutline /> Send us a Message
               </a>

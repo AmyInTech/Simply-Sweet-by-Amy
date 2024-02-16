@@ -4,7 +4,6 @@ import ModalImage from "react-modal-image";
 import menuImageUrl from "/img/menu/simply-sweet-by-amy-menu/flavors.png";
 import orderingImageUrl from "/img/menu/simply-sweet-by-amy-menu/ordering.png";
 import pricingImageUrl from "/img/menu/simply-sweet-by-amy-menu/pricing.png";
-import "./MenuAndOrdering.css"; // Import CSS file for styling
 
 const MenuItem = ({ smallImageUrl, largeImageUrl, altText }) => (
   <div className="zoom-in-container">
@@ -19,7 +18,7 @@ const MenuItem = ({ smallImageUrl, largeImageUrl, altText }) => (
 );
 
 const OrderButton = () => (
-  <div className="flex flex-col items-center justify-center gap-2 pt-6 pb-12">
+  <div className="flex flex-col items-center justify-center gap-2 pt-6 pb-8">
     <span className="font-[Raleway] text-[20px] font-bold text-[#15aabf] pb-2">
       Ready to place your order?
     </span>
@@ -27,7 +26,7 @@ const OrderButton = () => (
     <a
       href="https://forms.gle/Hd1fbMpX7ofBsDzp6"
       target="_blank"
-      className="flex items-center justify-center gap-4 rounded-md bg-[#3bc9db] px-8 py-2 text-sm font-semibold text-white text-[18px] uppercase tracking-[3px] shadow-sm hover:bg-[#66d9e8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf] hover:scale-105 transition-transform duration-3000"
+      className="flex items-center justify-center gap-4 rounded-md bg-[#3bc9db] px-8 py-2 text-sm font-semibold text-white text-[18px] uppercase tracking-[2px] shadow-sm hover:bg-[#66d9e8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf] hover:scale-105 transition-transform duration-3000"
     >
       <IoCartOutline className="text-[22px]"/> Order Now
     </a>

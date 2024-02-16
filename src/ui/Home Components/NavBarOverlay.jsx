@@ -33,42 +33,42 @@ function NavBarOverlay() {
         {/* Collapsible menu content */}
         <div className="flex h-full flex-col gap-24" onClick={handleMenuClick}>
           <div className="mr-8 mt-8 flex w-auto justify-end">
-            <FiX className="text-5xl text-[#22b8cf]  hover:font-bold hover:text-neutral-400" />
+            <FiX className="text-4xl text-[#22b8cf]  hover:font-bold hover:text-neutral-400" />
           </div>
-          <div className="flex flex-col items-center justify-center gap-12 text-center">
+          <div className="flex flex-col items-center justify-center gap-3 text-center">
             <a
-              href="/home"
-              className="block px-4 py-2 font-[Raleway] text-3xl font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
+              href="/"
+              className="block px-4 py-2 font-[Raleway] text-[22px] font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
             >
               Home
             </a>
             <a
               href="/menu-and-ordering"
-              className="block px-4 py-2 font-[Raleway] text-3xl font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
+              className="block px-4 py-2 font-[Raleway] text-[22px] font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
             >
               Menu & Ordering
             </a>
             <a
               href="/about-us"
-              className="block px-4 py-2 font-[Raleway] text-3xl font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
+              className="block px-4 py-2 font-[Raleway] text-[22px] font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
             >
               About Us
             </a>
             <a
               href="/FAQs"
-              className="block px-4 py-2 font-[Raleway] text-3xl font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
+              className="block px-4 py-2 font-[Raleway] text-[22px] font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
             >
               FAQs
             </a>
             <a
               href="/care-guide"
-              className="block px-4 py-2 font-[Raleway] text-3xl font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
+              className="block px-4 py-2 font-[Raleway] text-[22px] font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
             >
               Care Guide
             </a>
             <a
               href="/contact"
-              className="block px-4 py-2 font-[Raleway] text-3xl font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
+              className="block px-4 py-2 font-[Raleway] text-[22px] font-medium tracking-wide text-[#1098ad] hover:text-neutral-400"
             >
               Contact
             </a>

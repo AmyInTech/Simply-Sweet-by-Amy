@@ -143,7 +143,7 @@ function HomeFeaturedProductsSection() {
   return (
     <div
       id="home-featured-products-section"
-      className="flex items-center justify-center bg-[#fff5f5] font-[Raleway] xs:pt-20 md:pt-32"
+      className="flex items-center justify-center bg-[#fff5f5] font-[Raleway] sm:pt-16 md:pt-32"
     >
       <div className="flex flex-col justify-evenly gap-5 rounded-lg bg-[#e3fafc] px-20 py-10 mobile:w-[380px] mobile:px-14 slider600:w-[500px] sm:w-[550px] md:w-[700px] slider900:w-[800px] slider1020:w-[900px] slider1060:w-[980px] xl:w-[1200px]">
         <div className="relative flex justify-center">
