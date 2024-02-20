@@ -7,11 +7,11 @@ import "slick-carousel/slick/slick-theme.css";
 import { BsStarFill, BsStar } from "react-icons/bs";
 
 let starRating5 = [
-  <BsStarFill key="star1" />,
-  <BsStarFill key="star2" />,
-  <BsStarFill key="star3" />,
-  <BsStarFill key="star4" />,
-  <BsStarFill key="star5" />,
+  <BsStarFill key="star1" className="text-yellow-400" />,
+  <BsStarFill key="star2" className="text-yellow-400" />,
+  <BsStarFill key="star3" className="text-yellow-400" />,
+  <BsStarFill key="star4" className="text-yellow-400" />,
+  <BsStarFill key="star5" className="text-yellow-400" />,
 ];
 
 let starRating4 = [
@@ -67,7 +67,8 @@ let featuredReviews = [
     icon: "testimonial-photo-monineath.jpeg",
     rating: starRating5,
     reviewersName: "Monineath S.",
-    comment: "Crème brûlée was my fave macaron flavor! So good. Perfect amount of sweetness 😍",
+    comment:
+      "Crème brûlée was my fave macaron flavor! So good. Perfect amount of sweetness 😍",
     isTruncated: false,
   },
   {
@@ -84,7 +85,7 @@ let featuredReviews = [
     reviewersName: "Joey P.",
     comment:
       "Having tried the macarons from this store, I must say they exceeded my expectations. The flavors were exquisite, and the texture was spot-on with a delightful balance of crispiness and softness. It was a treat for the taste buds, and I highly recommend trying them for a delightful culinary experience.",
-      isTruncated: true,
+    isTruncated: true,
   },
   {
     icon: "user-avatar.png",
@@ -92,7 +93,7 @@ let featuredReviews = [
     reviewersName: "Van T.",
     comment:
       "Excellent taste and variety of flavors!!! Very new flavors that you cant find anywhere.",
-      isTruncated: false,
+    isTruncated: false,
   },
   {
     icon: "user-avatar.png",
@@ -100,7 +101,7 @@ let featuredReviews = [
     reviewersName: "Xia V.",
     comment:
       "I don’t usually like sweets but I these are flavorful and I always go back for more. Amy offers flavors for the Asian palate like ube, thai tea, and milk tea (all on my top 5 list). She is also easy to work with and takes new flavor suggestions well.",
-      isTruncated: true,
+    isTruncated: true,
   },
   {
     icon: "testimonial-photo-tina.jpeg",
@@ -108,7 +109,7 @@ let featuredReviews = [
     reviewersName: "Tina D.",
     comment:
       "Very delicious macarons that come in a variety of different unique flavors.",
-      isTruncated: false,
+    isTruncated: false,
   },
   {
     icon: "testimonial-photo-stephanie.jpeg",
@@ -116,7 +117,7 @@ let featuredReviews = [
     reviewersName: "Stephanie S.",
     comment:
       "I ordered over 100 macarons in five different flavors (lemon crème, chocolate fudge, Vietnamese coffee, white chocolate mocha, and strawberries and crème)! The macarons just melt in your mouth. So fresh and tasty! We will continue to order from Simply Sweet because it never disappoints. Highly recommend!",
-      isTruncated: true,
+    isTruncated: true,
   },
 ];
 
