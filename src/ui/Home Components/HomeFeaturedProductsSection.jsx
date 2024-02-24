@@ -11,7 +11,7 @@ let featuredProducts = [
   },
   {
     img: "products-card-stock-photo-2.avif",
-    title: "Lemon Creme , Pistachio, Passionfruit",
+    title: "Lemon, Pistachio, Passionfruit",
   },
   {
     img: "products-card-stock-photo-3.avif",
