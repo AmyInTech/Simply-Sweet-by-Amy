@@ -195,9 +195,9 @@ function HomeTestimonialsSection() {
   return (
     <div
       id="home-testimonials-section"
-      className="flex items-center justify-center bg-[#fff5f5] font-[Raleway] sm:pt-16 md:pt-32"
+      className="flex items-center justify-center bg-[#fff5f5] font-[Raleway] sm:p-16 md:pt-32"
     >
-      <div className="flex flex-col justify-evenly gap-5 rounded-lg bg-[#f3f0ff] px-20 py-10 mobile:px-14 slider600:w-[500px] sm:w-[550px] md:w-[700px] slider900:w-[800px] slider1020:w-[900px] slider1060:w-[980px] xl:w-[1200px]">
+      <div className="flex flex-col justify-evenly gap-5 rounded-lg bg-[#f3f0ff] px-20 py-10 mobile:w-[100%] mobile:px-14 slider600:w-[500px] sm:w-[550px] md:w-[700px] slider900:w-[800px] slider1020:w-[900px] slider1060:w-[980px] xl:w-[1200px]">
         <div className="relative flex justify-center">
           <h1 className="relative px-8 py-4 text-center text-xl font-semibold uppercase tracking-[0.2em] text-stone-500 after:border-solid md:before:absolute md:before:left-[-120px] md:before:top-[50%] md:before:z-10 md:before:w-[120px] md:before:translate-y-[-50%] md:before:border-[2px] md:before:border-solid md:before:border-[#d0bfff] md:after:absolute md:after:right-[-120px] md:after:top-[50%] md:after:z-10 md:after:w-[120px] md:after:translate-y-[-50%] md:after:border-[2px] md:after:border-[#d0bfff]">
             Testimonials
@@ -210,7 +210,7 @@ function HomeTestimonialsSection() {
         </div>
 
         {/* Slider */}
-        <div className="violet-chevron slider1:w-[750px] nlg:w-[900px] xs:w-[250px] mobile:w-[250px] slider600:w-[400px] sm:w-[440px] md:w-[590px] slider900:w-[700px] slider1020:w-[750px] slider1060:w-[870px] xl:w-[1090px]">
+        <div className="violet-chevron slider1:w-[750px] nlg:w-[900px] xs:w-[250px] mobile:w-auto slider600:w-[400px] sm:w-[440px] md:w-[590px] slider900:w-[700px] slider1020:w-[750px] slider1060:w-[870px] xl:w-[1090px]">
           <Slider {...settings}>
             {featuredReviews.map((review, index) => (
               <TestimonialCard
