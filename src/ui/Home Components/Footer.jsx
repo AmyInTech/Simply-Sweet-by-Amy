@@ -37,7 +37,7 @@ function Footer() {
             src="/img/canva-logos/ssba-blue-logo-removebg.png"
             alt="Company name"
           />
-          <div className="xs:my-6 md:mx-16 md:mb-0 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+          <div className="grid grid-cols-2 gap-8 xs:my-6 md:mx-16 md:mb-0 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold uppercase leading-6 tracking-wider text-[#15aabf]">
@@ -146,8 +146,8 @@ function Footer() {
             </div>
           </form>
         </div> */}
-        
-        <div className="border-t border-neutral-500/10 pt-8 md:flex md:items-center md:justify-between md:mt-8">
+
+        <div className="border-t border-neutral-500/10 pt-8 md:mt-8 md:flex md:items-center md:justify-between">
           <div className="flex flex-col">
             <p className="mt-2 text-xs leading-5 text-neutral-400 md:order-1 md:mt-0">
               &copy; 2023 Simply Sweet By Amy is a registered cottage food
