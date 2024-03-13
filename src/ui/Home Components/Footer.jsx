@@ -1,4 +1,5 @@
 import React from "react";
+import { BsInstagram, BsEnvelope } from "react-icons/bs";
 
 const navigation = {
   home: [
@@ -113,44 +114,45 @@ function Footer() {
           </div>
         </div>
 
-        {/* <div className="mt-16 border-t border-neutral-500/10 pt-8 sm:mt-20 lg:mt-12 lg:flex lg:items-center lg:justify-between">
+        <div className="mt-16 flex gap-6 border-t border-neutral-500/10 pt-8 sm:mt-20 md:justify-between lg:mt-12 lg:flex lg:items-center">
           <div>
             <h3 className="text-sm font-semibold leading-6 text-[#15aabf]">
-              Subscribe to our newsletter:
+              Follow us on Social Media!{" "}
+              <a
+                href="https://www.instagram.com/simplysweetbyamymacarons/"
+                target="_blank"
+                className="text-[#f783ac] hover:text-[#d6336c]"
+              >
+                @simplysweetbyamymacarons
+              </a>
             </h3>
             <p className="mt-2 text-sm leading-6 text-neutral-500">
-              The latest flavors, specials, news, and discounts sent to your
-              inbox weekly.
+              The latest flavors, specials, news, and discounts are featured on
+              our Instagram page!
             </p>
           </div>
-          <form className="mt-6 sm:flex sm:max-w-md lg:mt-0">
-            <label htmlFor="email-address" className="sr-only">
-              Email address
-            </label>
-            <input
-              type="email"
-              name="email-address"
-              id="email-address"
-              autoComplete="email"
-              required
-              className="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-neutral-500 shadow-sm ring-1 ring-inset ring-neutral-300 placeholder:text-[#15aabf] focus:ring-2 focus:ring-inset focus:ring-[#15aabf] sm:w-56 sm:text-sm sm:leading-6"
-              placeholder="Enter Your Email"
-            />
-            <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-              <button
-                type="submit"
-                className="flex w-full items-center justify-center rounded-md bg-[#3bc9db] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#15aabf] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf]"
-              >
-                Subscribe
-              </button>
-            </div>
-          </form>
-        </div> */}
+          <div className="flex items-center justify-center gap-2 p-3 lg:items-center ">
+            <a
+              href="https://www.instagram.com/simplysweetbyamymacarons/"
+              target="_blank"
+              className="rounded-[10px] bg-[#faa2c1] p-[6px] text-[18px] text-[#ffffff] hover:font-semibold hover:text-[#fff0f6]"
+            >
+              <BsInstagram />
+            </a>
+            <a
+              href="mailto: amy@simplysweetbyamy.com"
+              target="_blank"
+              className="rounded-[10px] bg-[#faa2c1] p-[6px] text-[18px] text-[#ffffff] hover:font-semibold hover:text-[#fff0f6]"
+            >
+              <BsEnvelope />
+            </a>
+          </div>
+        </div>
 
         <div className="border-t border-neutral-500/10 pt-8 md:mt-8 md:flex md:items-center md:justify-between">
           <div className="flex flex-col">
             <p className="mt-2 text-xs leading-5 text-neutral-400 md:order-1 md:mt-0">
-              &copy; 2023 Simply Sweet By Amy is a registered cottage food
+              &copy; 2024 Simply Sweet By Amy is a registered cottage food
               producer in the state of MN.
             </p>
             <p className="mt-4 text-xs leading-5 text-neutral-500 md:order-1 md:mt-0">
