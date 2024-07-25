@@ -14,7 +14,7 @@ function AboutUs() {
                 className="h-full rounded-t-md object-top xs:h-[350px] xs:w-full xs:object-cover xs:object-center mobile:object-top"
               />
             </div>
-            <div className="flex basis-7/12 flex-col justify-center rounded-b-md bg-white p-[50px] xs:p-8 mobile:p-10 lgmobile:p-12">
+            <div className="lgmobile:p-12 flex basis-7/12 flex-col justify-center rounded-b-md bg-white p-[50px] xs:p-8 mobile:p-10">
               <h1 className="pb-4 font-[Sacramento] text-5xl text-[#22b8cf] xs:p-2 xs:pb-4 xs:text-center xs:text-5xl mobile:text-6xl sm:text-6xl md:text-7xl">
                 Hello There!
               </h1>
@@ -67,14 +67,14 @@ function AboutUs() {
                   Welcome to my world of simple sweets!
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-2 pt-6 pb-8">
-              <span className="font-[Raleway] text-[16px] font-bold text-[#22b8cf] pb-2">
-                Ready to start your order?
-              </span>
-                    <a
-                    href="/menu-and-ordering"
-                    className="flex items-center justify-center gap-4 rounded-md bg-[#3bc9db] px-8 py-2 text-sm font-semibold text-white text-[18px] uppercase tracking-[2px] shadow-sm hover:bg-[#66d9e8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf] hover:scale-105 transition-transform duration-3000"
-                  >
+              <div className="flex flex-col items-center justify-center gap-2 pb-8 pt-6">
+                <span className="pb-2 font-[Raleway] text-[16px] font-bold text-[#22b8cf]">
+                  Ready to start your order?
+                </span>
+                <a
+                  href="/order"
+                  className="duration-3000 flex items-center justify-center gap-4 rounded-md bg-[#3bc9db] px-8 py-2 text-[18px] text-sm font-semibold uppercase tracking-[2px] text-white shadow-sm transition-transform hover:scale-105 hover:bg-[#66d9e8] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15aabf]"
+                >
                   <IoCartOutline /> Order Macarons
                 </a>
               </div>

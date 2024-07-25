@@ -8,7 +8,8 @@ import Header from "./ui/Header";
 import NavBar from "./ui/Home Components/NavBar";
 import Footer from "./ui/Home Components/Footer";
 import AppLayout from "./ui/AppLayout";
-import MenuAndOrdering from "./features/menu-and-ordering/menu-and-ordering";
+import Menu from "./features/menu/menu";
+import Order from "./features/ordering/order";
 import AboutUs from "./features/about-us/AboutUs";
 import FAQs from "./features/faqs/FAQs";
 import CareGuide from "./features/care-guide/care-guide";
@@ -25,8 +26,12 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/menu-and-ordering",
-        element: <MenuAndOrdering />,
+        path: "/menu",
+        element: <Menu />,
+      },
+      {
+        path: "/order",
+        element: <Order />,
       },
       {
         path: "/about-us",

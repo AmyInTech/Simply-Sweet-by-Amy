@@ -9,8 +9,8 @@ const navigation = {
     { name: "Testimonials", href: "#home-testimonials-section" },
   ],
   order: [
-    { name: "Menu & Pricing", href: "/menu-and-ordering" },
-    { name: "Place an Order", href: "/menu-and-ordering" },
+    { name: "Menu & Pricing", href: "/menu" },
+    { name: "Place an Order", href: "/order" },
   ],
   company: [
     { name: "About Us", href: "about-us" },

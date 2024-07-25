@@ -33,37 +33,43 @@ function NavBar() {
         <div className="hidden md:flex">
           <a
             href="/"
-            className="nav-link flex justify-center items-center text-center rounded-lg px-6 py-2 hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
+            className="nav-link flex items-center justify-center rounded-lg px-6 py-2 text-center hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
           >
             Home
           </a>
           <a
-            href="/menu-and-ordering"
-            className="nav-link flex justify-center items-center text-center rounded-lg px-6 py-2 hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
+            href="/menu"
+            className="nav-link flex items-center justify-center rounded-lg px-6 py-2 text-center hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
           >
-            Menu & Ordering
+            Menu
+          </a>
+          <a
+            href="/order"
+            className="nav-link flex items-center justify-center rounded-lg px-6 py-2 text-center hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
+          >
+            Place an Order
           </a>
           <a
             href="/about-us"
-            className="nav-link flex justify-center items-center text-center rounded-lg px-6 py-2 hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
+            className="nav-link flex items-center justify-center rounded-lg px-6 py-2 text-center hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
           >
             About Us
           </a>
           <a
             href="/FAQs"
-            className="nav-link flex justify-center items-center text-center rounded-lg px-6 py-2 hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
+            className="nav-link flex items-center justify-center rounded-lg px-6 py-2 text-center hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
           >
             FAQs
           </a>
           <a
             href="/care-guide"
-            className="nav-link flex justify-center items-center text-center rounded-lg px-6 py-2 hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
+            className="nav-link flex items-center justify-center rounded-lg px-6 py-2 text-center hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
           >
             Care Guide
           </a>
           <a
             href="/contact"
-            className="nav-link flex justify-center items-center text-center rounded-lg px-6 py-2 hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
+            className="nav-link flex items-center justify-center rounded-lg px-6 py-2 text-center hover:cursor-pointer hover:text-[#f783ac] hover:duration-300"
           >
             Contact
           </a>
