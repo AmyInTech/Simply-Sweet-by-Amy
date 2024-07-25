@@ -25,7 +25,7 @@ function Menu() {
           <div className="flex flex-col items-stretch rounded-md bg-white shadow-md">
             <div className="m-4 mt-10 flex justify-center">
               <h1 className="text-center font-[Sacramento] text-[#22b8cf] xs:text-5xl mobile:text-6xl sm:text-6xl  md:text-7xl">
-                Menu & Ordering
+                Menu & Pricing
               </h1>
             </div>
             <div className="flex flex-col items-center justify-center rounded-md bg-white px-[20px] pb-[50px] pt-[10px]">
